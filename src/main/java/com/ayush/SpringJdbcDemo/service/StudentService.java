@@ -16,7 +16,7 @@ public class StudentService {
     }
 
     public void createStudent(Student student){
-        studentRepository.createPreparedStudent(student);
+        studentRepository.createStudent(student);
     }
 
     public List<Student> getAllStudents(){
