@@ -12,7 +12,7 @@ public class StudentRepository {
 
     String url = "jdbc:mysql://localhost:3306/spring_student_db";
     String username = "root";
-    String password = "Navneet105#";
+    String password = "";
 
     public void createStudent() {
         try {
